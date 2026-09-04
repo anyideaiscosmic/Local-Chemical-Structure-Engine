@@ -1,2 +1,2 @@
 # Local-Chemical-Structure-Engine
-A local chemical structure engine that converts chemical names into 2D molecular structures using known chemical data..
+A local, database-backed chemical structure engine that resolves chemical identifiers into validated molecular representations and renders them as 2D structures without requiring manual image retrieval.
