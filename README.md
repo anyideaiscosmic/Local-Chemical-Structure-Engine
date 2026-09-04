@@ -1,2 +1,2 @@
 # Local-Chemical-Structure-Engine
-Locally generate chemical structure by IUPAC naming scheme.
+A local chemical structure engine that converts chemical names into 2D molecular structures using known chemical data..
