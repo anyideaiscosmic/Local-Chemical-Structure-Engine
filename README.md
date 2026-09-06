@@ -4,6 +4,7 @@ A cross-platform tool that generates a 2D chemical structure image from a user-p
 Deployment order: web first, then Windows/Mac desktop (Electron wrapping the web frontend), then mobile (PWA or native client hitting the same API).
 
 Input: one chemical name per request.
+
 Output: 2D structure image (format — PNG or SVG — still undecided).
 
 Open items unresolved: batch input support, exact output format, handling of trivial/non-systematic names, online-hosted API vs fully offline bundled runtime.
