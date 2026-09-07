@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MolPrep - IUPAC to 3D Structure</title>
+    <style>
+        /* Simple styling - you can expand this later */
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        input, button { padding: 0.5rem; font-size: 1rem; }
+        #output { margin-top: 1.5rem; }
+        #svg-container svg { max-width: 100%; border: 1px solid #ccc; border-radius: 8px; }
+        #status { color: #666; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>🧪 MolPrep</h1>
+    <p>Enter an IUPAC name to generate a 3D structure — fully offline.</p>
+
+    <input type="text" id="nameInput" placeholder="e.g., 3-ethyl-octane" size="40" />
+    <button id="generateBtn">Generate</button>
+
+    <div id="status">Ready.</div>
+    <div id="output">
+        <div id="svg-container"></div>
+    </div>
+
+    <!-- Load the main JavaScript -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
