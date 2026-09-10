@@ -9,4 +9,4 @@ Output: 2D structure image (format — PNG or SVG — still undecided).
 
 Open items unresolved: batch input support, exact output format, handling of trivial/non-systematic names, online-hosted API vs fully offline bundled runtime.
 
-On Progress
+On Progress to performing docking it
